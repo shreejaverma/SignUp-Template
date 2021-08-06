@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body { width:100%; height:100%; margin:0; padding:0; overflow-x: hidden; background: linear-gradient(252.29deg, rgba(0, 0, 0, 0.2) 26.1%, rgba(0, 0, 0, 0) 97.03%), #9C7AF5;font-family: 'Roboto', sans-serif;}
+  
+.left-item1{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5%;
+    top: 20%;
+    left: 10%;
+}
+
+.left-item2{
+    color: white;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    padding-right: 20%;
+}
+.row{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.right{
+    background-image: url("desktop.png");
+    background-size: cover ;
+    height: fit-content;
+    padding: 10%;
+}
+
+.right-form{
+    background-color: white;
+    width: 90%;
+    padding: 10%;
+    box-sizing: content-box;
+    position: relative;
+    top: 20%;
+    margin: auto;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.right-form h5{
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 5%;
+    margin-bottom: 0px;
+}
+
+.right-form p{
+    color: #959090;
+    font-size: smaller;
+}
+label{
+    margin: 2% 0;
+}
+.form-item{
+    border-radius: 0.1rem;
+    width: 100%;
+    border: 1px solid #B9B4C8;
+}
+
+.btn{
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+
+@media screen and (max-width: 800px) {
+    .right{
+        background-image: url("mobile.png");
+        background-size: cover;
+    }
+    .right-form{
+        padding: 0%;
+    }
+    .btn{
+        width: 100%;
+        line-height: 1;
+        font-size: small;
+        margin-left: 0%;
+    }
+    .right-form h5{
+    font-size: medium;
+    }
+    .right-form p{
+        font-size: 60%;
+        line-height: 1;
+        padding: 0 20%;
+    }
+    label{
+        font-size: smaller;
+    }
+}
